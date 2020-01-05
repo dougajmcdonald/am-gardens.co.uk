@@ -27,14 +27,15 @@ const IndexPage = () => (
         usually get answered sooner.
       </p>
       <h3>General enquiries</h3>
-      <a className="mt-4 inline-block" href="mailto:email@host.com">
-        email@host.com
+      <a
+        className="mt-4 inline-block"
+        href="mailto:Alistair.mcdonald@rocketmail.com"
+      >
+        Alistair.mcdonald@rocketmail.com
       </a>
-      <p className="mt-4 mb-0">An address,</p>
-      <p className="mt-0 mb-0">The Street,</p>
-      <p className="mt-0 mb-0">Town,</p>
-      <p className="mt-0 mb-0">County,</p>
-      <p className="mt-0 mb-0">POST COD</p>
+      <p className="mt-4 mb-0">6a Kellaway Avenue,</p>
+      <p className="mt-0 mb-0">Bristol,</p>
+      <p className="mt-0 mb-0">BS6 7XR</p>
       <h2>Where to find us</h2>
       <img alt="our location on google maps" src={Map} />
     </Body>
