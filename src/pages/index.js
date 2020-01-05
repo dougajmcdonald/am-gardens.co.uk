@@ -3,10 +3,12 @@ import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import Hero from "../components/hero"
+import QuoteBanner from "../components/quote-banner"
 import Body from "../components/body"
 import SEO from "../components/seo"
 import BlogListing from "../components/blog-listing"
 import HeroImg from "../svg/undraw_gardening.svg"
+import QuoteImg from "../images/ali_face.png"
 
 export default ({
   data: {
@@ -43,6 +45,14 @@ export default ({
         </p>
         {/* <h2 className="mt-6">Recent work</h2>
         {posts} */}
+      </Body>
+      <QuoteBanner
+        text="I pride myself on delivering quality gardening outcomes for you and all my clients."
+        image={<img src={QuoteImg} />}
+      />
+      <Body>
+        <h2 className="mt-6">Recent work</h2>
+        {posts}
       </Body>
     </Layout>
   )
