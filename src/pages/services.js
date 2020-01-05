@@ -4,44 +4,51 @@ import Layout from "../components/layout"
 import Body from "../components/body"
 import Hero from "../components/hero"
 import SEO from "../components/seo"
-import HeroImg from "../svg/undraw_services.svg"
+import HeroImg from "../svg/undraw_outdoors.svg"
 
 const ServicesPage = () => (
   <Layout>
     <SEO title="About" />
     <Hero
-      text="Over ten years practical experience working in gardens across the south of England, from Bristol, Bath and Wiltshire."
-      image={<HeroImg width="300px" height="300px" />}
+      text="I offer a range of gardening services to allow you to enjoy your garden space, hassle free"
+      image={<HeroImg width="500px" height="300px" />}
+      cta={{ to: "/contact-us", text: "Get a quote" }}
     />
     <Body>
-      <h1>About</h1>
+      <h1>Services</h1>
       <p>
-        I have over ten years practical experience working in gardens across the
-        south of England, from Bristol, Bath and Wiltshire and as far afield as
-        London and Surrey.
+        With a meticulous eye for detail, my appreciation for the aesthetic has
+        developed into an established understanding of the spacial structuring
+        of the garden and it's varying components. This allows clients to be
+        confident in the precision of my work and thorough approach to a
+        considered outcome for every situation.
       </p>
       <p>
-        With vast experience operating in private residential gardens (including
-        those of Premier League footballers), I have worked to the highest
-        standards for clients who expect the best.
+        With personal interests ranging from ecological consideration to
+        advanced bonsai techniques, I really can offer something for everyone
+        and look forward to hearing from you
       </p>
-      <p>
-        I confidently work on large scale gardens and am happy to create work
-        plans that not only fit the seasons, but also the your requirements.
-      </p>
-      <p>
-        I'm also experienced running large scale commercial sites around
-        deadlines and developments, whilst liaising with management structuring.
-        An ability to prioritise when time is tight whilst still working to the
-        highest standard is second nature to the way I work.
-      </p>
-      <p>I hold the following professional certifications</p>
+      <h2>Garden maintenance</h2>
       <ul>
-        <li>Spraying shit</li>
-        <li>Cutting shit</li>
-        <li>Not cutting the wrong shit</li>
-        <li>Ethical shit</li>
-        <li>Environmental shit</li>
+        <li>Grass cutting</li>
+        <li>Lawn care</li>
+        <li>Hedge cutting</li>
+        <li>Pruning</li>
+        <li>Planting</li>
+      </ul>
+      <h2>Garden design</h2>
+      <ul>
+        <li>Garden design and planning</li>
+        <li>Soft landscaping</li>
+        <li>Cultivation</li>
+        <li>Habitat Construction</li>
+        <li>Turfing</li>
+      </ul>
+      <h2>Garden clearing</h2>
+      <ul>
+        <li>Weeding</li>
+        <li>Spraying (PA1 and PA6 certification)</li>
+        <li>Green waste removal</li>
       </ul>
     </Body>
   </Layout>

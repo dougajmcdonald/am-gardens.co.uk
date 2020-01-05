@@ -24,7 +24,7 @@ export default ({
       <SEO title="Home" />
       <Hero
         text="Professional, reliable gardening services "
-        image={<HeroImg width="400px" height="300px" />}
+        image={<HeroImg width="500px" height="300px" />}
         cta={{ to: "/services", text: "Find out more" }}
       />
       <Body>
@@ -32,15 +32,17 @@ export default ({
         <p>
           With a meticulous eye for detail, my appreciation for the aesthetic
           has developed into an established understanding of the spacial
-          structuring of the garden and it's varying components. This allows
-          clients to be confident in the precision of my work and thorough
-          approach to a considered outcome for every situation. With personal
-          interests ranging from ecological consideration to advanced bonsai
-          techniques, I really can offer something for everyone and look forward
-          to hearing from you
+          structuring of the garden and it's varying components.
         </p>
-        <h2 className="mt-6">Recent work</h2>
-        {posts}
+        <p>
+          This allows clients to be confident in the precision of my work and
+          thorough approach to a considered outcome for every situation. With
+          personal interests ranging from ecological consideration to advanced
+          bonsai techniques, I really can offer something for everyone and look
+          forward to hearing from you
+        </p>
+        {/* <h2 className="mt-6">Recent work</h2>
+        {posts} */}
       </Body>
     </Layout>
   )

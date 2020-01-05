@@ -53,7 +53,6 @@ module.exports = {
         plugins: [
           `gatsby-remark-copy-linked-files`,
           `gatsby-plugin-react-helmet`,
-          `gatsby-remark-prismjs`,
           {
             resolve: `gatsby-remark-images`,
             options: {

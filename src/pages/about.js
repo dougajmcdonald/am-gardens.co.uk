@@ -11,7 +11,7 @@ const AboutPage = () => (
     <SEO title="About" />
     <Hero
       text="Over ten years practical experience working in gardens across the south of England, from Bristol, Bath and Wiltshire."
-      image={<HeroImg width="300px" height="300px" />}
+      image={<HeroImg width="500px" height="300px" />}
     />
     <Body>
       <h1>About</h1>
@@ -37,6 +37,7 @@ const AboutPage = () => (
       </p>
       <p>I hold the following professional certifications</p>
       <ul>
+        <li>PA1 and PA6 certification</li>
         <li>Spraying shit</li>
         <li>Cutting shit</li>
         <li>Not cutting the wrong shit</li>

@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-tailwind-netlify-cms-starter",
+  "name": "am-gardens.co.uk",
   "private": true,
-  "description": "A starter to get you going with tailwind, netlify cms and sensible utilities like SEO optimisation",
+  "description": "The public facing website of am-gardens.co.uk",
   "version": "0.1.0",
   "author": "Doug McDonald <dougajmcdonald@gmail.com>",
   "dependencies": {
@@ -18,19 +18,17 @@
     "gatsby-plugin-sharp": "^2.3.10",
     "gatsby-remark-copy-linked-files": "^2.1.31",
     "gatsby-remark-images": "^3.1.33",
-    "gatsby-remark-prismjs": "^3.3.24",
     "gatsby-source-filesystem": "^2.1.43",
     "gatsby-transformer-remark": "^2.6.30",
     "gatsby-transformer-sharp": "^2.3.9",
+    "google-map-react": "^1.1.5",
     "netlify-cms-app": "^2.9.7",
-    "prismjs": "^1.17.1",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-helmet": "^5.2.1",
     "tailwindcss": "^1.1.3",
-    "typeface-roboto": "0.0.75",
-    "typeface-roboto-slab": "0.0.72"
+    "typeface-open-sans": "0.0.75"
   },
   "devDependencies": {
     "prettier": "^1.19.1"
@@ -50,9 +48,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/dougajmcdonald/gatsby-tailwind-netlify-cms-starter"
+    "url": "https://github.com/dougajmcdonald/am-gardens.co.uk"
   },
   "bugs": {
-    "url": "https://github.com/dougajmcdonald/gatsby-tailwind-netlify-cms-starter/issues"
+    "url": "https://github.com/dougajmcdonald/am-gardens.co.uk/issues"
   }
 }
