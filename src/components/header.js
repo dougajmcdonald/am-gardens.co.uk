@@ -38,7 +38,7 @@ const Header = () => {
           ))}
         </nav>
         <button
-          className="md:hidden text-white border-white border-2 rounded p-2"
+          className="md:hidden text-primary border-primary border-2 rounded p-2"
           onClick={() => toggleExpansion(!isExpanded)}
         >
           Menu
@@ -50,7 +50,7 @@ const Header = () => {
         >
           {pages.map(page => (
             <Link
-              className="block md:inline-block mt-4 md:mt-0 md:ml-6 no-underline text-white font-display hover:no-underline"
+              className="block md:inline-block mt-4 md:mt-0 md:ml-6 no-underline text-primary font-display hover:no-underline"
               activeStyle={{ color: `#EE6C4D` }}
               key={page.text}
               to={page.route}
