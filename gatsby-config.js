@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby tailwind netlify cms starter`,
+    title: `AM Gardens`,
     author: `@dougajmcdonald`,
-    description: `Gatsby tailwind netlify cms starter`,
-    url: `https://github.com/dougajmcdonald/gatsby-tailwind-netlify-cms-starter`, // No trailing slash allowed!
+    description: `AM Gardens - Professional, reliable garden services in and around Bristol.`,
+    url: `https://www.am-gardens.co.uk`, // No trailing slash allowed!
     image: `/favicon.png`, // Path to your image you placed in the 'static' folder
     twitterUsername: `@dougajmcdonald`
   },
@@ -80,7 +80,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        //trackingId: `ADD YOUR TRACKING ID HERE`,
+        trackingId: `UA-155318584-1`
       }
     }
   ]
