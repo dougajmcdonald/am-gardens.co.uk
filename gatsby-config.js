@@ -4,7 +4,7 @@ module.exports = {
     author: `@dougajmcdonald`,
     description: `AM Gardens - Professional, reliable garden services in and around Bristol.`,
     url: `https://www.am-gardens.co.uk`, // No trailing slash allowed!
-    image: `/favicon.png`, // Path to your image you placed in the 'static' folder
+    image: `/logo.png`, // Path to your image you placed in the 'static' folder
     twitterUsername: `@dougajmcdonald`
   },
   plugins: [
@@ -38,10 +38,10 @@ module.exports = {
         name: `AM Gardens`,
         short_name: `AM Gardens`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#459A6E`,
+        theme_color: `#459A6E`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png` // This path is relative to the root of the site.
+        icon: `src/images/logo.png` // This path is relative to the root of the site.
       }
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
