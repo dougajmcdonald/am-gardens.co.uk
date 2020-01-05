@@ -5,7 +5,7 @@ import Body from "../components/body"
 import Button from "../components/button"
 import Hero from "../components/hero"
 import SEO from "../components/seo"
-import HeroImg from "../svg/undraw_feelingblue.svg"
+import HeroImg from "../svg/undraw_page_not_found.svg"
 
 const NotFoundPage = () => (
   <Layout>

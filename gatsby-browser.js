@@ -15,5 +15,4 @@ import "./src/utils/tailwind-directives.css"
 import "./src/utils/base-styles.css"
 
 // custom typefaces
-import "typeface-roboto"
-import "typeface-roboto-slab"
+import "typeface-open-sans"

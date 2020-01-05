@@ -4,9 +4,9 @@ import Layout from "../components/layout"
 import Body from "../components/body"
 import Hero from "../components/hero"
 import SEO from "../components/seo"
-import HeroImg from "../svg/undraw_about.svg"
+import HeroImg from "../svg/undraw_services.svg"
 
-const AboutPage = () => (
+const ServicesPage = () => (
   <Layout>
     <SEO title="About" />
     <Hero
@@ -47,4 +47,4 @@ const AboutPage = () => (
   </Layout>
 )
 
-export default AboutPage
+export default ServicesPage

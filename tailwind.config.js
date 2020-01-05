@@ -1,8 +1,8 @@
 module.exports = {
   theme: {
     fontFamily: {
-      display: ['"Roboto slab"'],
-      body: ["Roboto"]
+      display: ['"Open sans"'],
+      body: ['"Open sans"']
     },
     fontSize: {
       xs: "0.563rem" /*9px*/,
@@ -18,8 +18,8 @@ module.exports = {
     },
     extend: {
       colors: {
-        primary: "#98C1D9",
-        secondary: "#293241",
+        primary: "#459A6E",
+        secondary: "#3E3E3E",
         tertiary: "#EE6C4D"
       }
     }

@@ -7,7 +7,7 @@ a:hover {
 }
 
 p {
-  @apply font-body text-secondary text-base mt-2 mb-4;
+  @apply font-body text-secondary text-base mt-2 mb-4 w-2/3;
 }
 
 h1 {

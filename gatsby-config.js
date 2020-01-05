@@ -35,8 +35,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-tailwind-netlify-cms-starter`,
-        short_name: `starter`,
+        name: `AM Gardens`,
+        short_name: `AM Gardens`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,
@@ -51,9 +51,9 @@ module.exports = {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
-          `gatsby-remark-prismjs`,
           `gatsby-remark-copy-linked-files`,
           `gatsby-plugin-react-helmet`,
+          `gatsby-remark-prismjs`,
           {
             resolve: `gatsby-remark-images`,
             options: {

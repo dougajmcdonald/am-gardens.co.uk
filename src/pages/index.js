@@ -6,7 +6,7 @@ import Hero from "../components/hero"
 import Body from "../components/body"
 import SEO from "../components/seo"
 import BlogListing from "../components/blog-listing"
-import HeroImg from "../svg/undraw_suburbs.svg"
+import HeroImg from "../svg/undraw_gardening.svg"
 
 export default ({
   data: {
@@ -23,14 +23,23 @@ export default ({
     <Layout>
       <SEO title="Home" />
       <Hero
-        text="Welcome to the Gatsby Tailwind Netlify CMS Starter"
-        image={<HeroImg />}
-        cta={{ to: "/contact-us", text: "How to find us" }}
+        text="Professional, reliable gardening services "
+        image={<HeroImg width="400px" height="300px" />}
+        cta={{ to: "/services", text: "Find out more" }}
       />
       <Body>
         <h1>Welcome</h1>
-        <p>Welcome to the Gatsby Tailwind Netlify CMS starter.</p>
-        <h2 className="mt-6">Posts</h2>
+        <p>
+          With a meticulous eye for detail, my appreciation for the aesthetic
+          has developed into an established understanding of the spacial
+          structuring of the garden and it's varying components. This allows
+          clients to be confident in the precision of my work and thorough
+          approach to a considered outcome for every situation. With personal
+          interests ranging from ecological consideration to advanced bonsai
+          techniques, I really can offer something for everyone and look forward
+          to hearing from you
+        </p>
+        <h2 className="mt-6">Recent work</h2>
         {posts}
       </Body>
     </Layout>
