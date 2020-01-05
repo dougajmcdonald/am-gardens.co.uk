@@ -10,7 +10,7 @@ const Hero = ({ text, image }) => (
           <span className="font-6xl">"</span> {text}
         </h2>
       </div>
-      <div className="w-full md:w-1/2 flex justify-end">{image}</div>
+      <div className="w-full md:w-1/2 flex justify-center">{image}</div>
     </div>
   </section>
 )

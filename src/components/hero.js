@@ -12,7 +12,7 @@ const Hero = ({ text, image, cta }) => (
         {cta && <Button to={cta.to}>{cta.text}</Button>}
       </div>
       <div
-        className="w-full md:w-1/2 flex justify-end"
+        className="w-full md:w-1/2 flex justify-center"
         style={{ minHeight: `300px`, minWidth: `300px` }}
       >
         {image}
