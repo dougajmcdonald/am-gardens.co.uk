@@ -7,7 +7,7 @@ import QuoteBanner from "../components/quote-banner"
 import Body from "../components/body"
 import SEO from "../components/seo"
 import BlogListing from "../components/blog-listing"
-import HeroImg from "../svg/undraw_gardening.svg"
+import HeroImg from "../svg/undraw_environment.svg"
 import QuoteImg from "../images/ali_face.png"
 
 export default ({
