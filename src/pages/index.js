@@ -26,7 +26,7 @@ export default ({
       <SEO title="Home" />
       <Hero
         text="Professional, reliable gardening services "
-        image={<HeroImg width="500px" height="300px" />}
+        image={<HeroImg width="400px" height="250px" />}
         cta={{ to: "/services", text: "Find out more" }}
       />
       <Body>
@@ -43,12 +43,10 @@ export default ({
           bonsai techniques, I really can offer something for everyone and look
           forward to hearing from you
         </p>
-        {/* <h2 className="mt-6">Recent work</h2>
-        {posts} */}
       </Body>
       <QuoteBanner
         text="I pride myself on delivering quality gardening outcomes for you and all my clients."
-        image={<img src={QuoteImg} />}
+        image={<img src={QuoteImg} alt="Ali's trustworthy face" />}
       />
       <Body>
         <h2 className="mt-6">Recent work</h2>
