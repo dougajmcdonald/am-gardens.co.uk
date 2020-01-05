@@ -6,6 +6,8 @@ import Body from "../components/body"
 
 import SEO from "../components/seo"
 import HeroImg from "../svg/undraw_contactus.svg"
+import PhoneIcon from "../svg/md-call.svg"
+import EmailIcon from "../svg/md-mail.svg"
 import Map from "../images/google-maps.png"
 
 const IndexPage = () => (
@@ -26,13 +28,16 @@ const IndexPage = () => (
         We will endeavour to get back to you within 48 hours though emails
         usually get answered sooner.
       </p>
-      <h3>General enquiries</h3>
-      <a
-        className="mt-4 inline-block"
-        href="mailto:Alistair.mcdonald@rocketmail.com"
-      >
-        Alistair.mcdonald@rocketmail.com
+      <h3>Contact info</h3>
+      <a className="mt-4 inline-block" href="mailto:info@am-gardens.co.uk">
+        <EmailIcon className="inline-block fill-current w-6 h-6 md:w-8 md:h-8 mr-4 md:mr-10" />
+        info@am-gardens.co.uk
       </a>
+      <p class="text-tertiary mt-6">
+        <PhoneIcon className="inline-block fill-current w-6 h-6 md:w-8 md:h-8 mr-4 md:mr-10" />{" "}
+        0898 505050 - Priest chat
+      </p>
+      <h3>Address</h3>
       <p className="mt-4 mb-0">6a Kellaway Avenue,</p>
       <p className="mt-0 mb-0">Bristol,</p>
       <p className="mt-0 mb-0">BS6 7XR</p>
