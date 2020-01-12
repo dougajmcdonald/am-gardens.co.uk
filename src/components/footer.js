@@ -49,11 +49,11 @@ const Header = ({ siteTitle }) => {
         </nav>
         <div className="flex-1 mr-4 text-white">
           <p className="text-white font-bold">Follow us</p>
-          <a href="" className="inline-block w-full my-2">
+          <a href="" className="inline-block md:w-full my-2">
             <FacebookLogo className="fill-current w-6 h-6 inline-block mr-4" />
             <span className="hidden md:inline-block">AM Gardens</span>
           </a>
-          <a href="" className="inline-block w-full my-2">
+          <a href="" className="inline-block md:w-full my-2">
             <InstagramLogo className="fill-current w-6 h-6 inline-block mr-4" />
             <span className="hidden md:inline-block">@AM Gardens</span>
           </a>
