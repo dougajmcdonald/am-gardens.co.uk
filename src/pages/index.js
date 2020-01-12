@@ -7,9 +7,7 @@ import QuoteBanner from "../components/quote-banner"
 import Body from "../components/body"
 import SEO from "../components/seo"
 import BlogListing from "../components/blog-listing"
-import HeroImg from "../svg/undraw_environment.svg"
 import QuoteImg from "../images/ali.png"
-import GardenImg from "../components/garden-image"
 
 export default ({
   data: {
@@ -27,7 +25,6 @@ export default ({
       <SEO title="Home" />
       <Hero
         text="Professional, reliable gardening services "
-        image={<GardenImg />}
         cta={{ to: "/services", text: "Find out more" }}
       />
       <Body>

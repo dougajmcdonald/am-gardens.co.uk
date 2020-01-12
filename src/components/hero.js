@@ -2,7 +2,7 @@ import React from "react"
 
 import Button from "../components/button"
 
-const Hero = ({ text, image, cta }) => (
+const Hero = ({ text, cta }) => (
   <section
     className="bg-cover bg-top"
     style={{
@@ -23,12 +23,6 @@ const Hero = ({ text, image, cta }) => (
         </h2>
         {cta && <Button to={cta.to}>{cta.text}</Button>}
       </div>
-      {/* <div
-        className="w-full md:w-1/2 flex justify-center"
-        style={{ minHeight: `200px`, minWidth: `200px` }}
-      >
-        {image}
-      </div> */}
     </div>
   </section>
 )

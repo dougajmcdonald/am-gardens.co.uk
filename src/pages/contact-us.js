@@ -5,17 +5,14 @@ import Hero from "../components/hero"
 import Body from "../components/body"
 
 import SEO from "../components/seo"
-import HeroImg from "../svg/undraw_contactus.svg"
 import PhoneIcon from "../svg/md-call.svg"
 import EmailIcon from "../svg/md-mail.svg"
-import Map from "../images/google-maps.png"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Contact Us" />
     <Hero
       text="We're on hand to answers your queries. Get in touch for a free quote."
-      image={<HeroImg width="500px" height="300px" />}
       cta={{ to: "/contact-us", text: "Get a quote" }}
     />
     <Body>

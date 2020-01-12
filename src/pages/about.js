@@ -4,15 +4,11 @@ import Layout from "../components/layout"
 import Body from "../components/body"
 import Hero from "../components/hero"
 import SEO from "../components/seo"
-import HeroImg from "../svg/undraw_about.svg"
 
 const AboutPage = () => (
   <Layout>
     <SEO title="About" />
-    <Hero
-      text="Over ten years practical experience working in gardens across the south of England, from Bristol, Bath and Wiltshire."
-      image={<HeroImg width="500px" height="300px" />}
-    />
+    <Hero text="Over ten years practical experience working in gardens across the south of England, from Bristol, Bath and Wiltshire." />
     <Body>
       <h1>About</h1>
       <p>

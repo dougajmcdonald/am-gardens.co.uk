@@ -4,14 +4,12 @@ import Layout from "../components/layout"
 import Body from "../components/body"
 import Hero from "../components/hero"
 import SEO from "../components/seo"
-import HeroImg from "../svg/undraw_outdoors.svg"
 
 const ServicesPage = () => (
   <Layout>
     <SEO title="About" />
     <Hero
       text="I offer a range of gardening services to allow you to enjoy your garden space, hassle free"
-      image={<HeroImg width="400px" height="200px" />}
       cta={{ to: "/contact-us", text: "Get a quote" }}
     />
     <Body>
