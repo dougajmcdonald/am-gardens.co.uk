@@ -26,7 +26,7 @@ const IndexPage = () => (
         <EmailIcon className="inline-block fill-current w-6 h-6 md:w-8 md:h-8 mr-4 md:mr-6" />
         info@am-gardens.co.uk
       </a>
-      <p class="text-tertiary mt-6">
+      <p class="mt-6">
         <PhoneIcon className="inline-block fill-current w-6 h-6 md:w-8 md:h-8 mr-4 md:mr-6" />{" "}
         0898 505050
       </p>
