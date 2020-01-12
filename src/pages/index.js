@@ -9,6 +9,7 @@ import SEO from "../components/seo"
 import BlogListing from "../components/blog-listing"
 import HeroImg from "../svg/undraw_environment.svg"
 import QuoteImg from "../images/ali_face.png"
+import GardenImg from "../components/garden-image"
 
 export default ({
   data: {
@@ -26,7 +27,7 @@ export default ({
       <SEO title="Home" />
       <Hero
         text="Professional, reliable gardening services "
-        image={<HeroImg width="400px" height="250px" />}
+        image={<GardenImg />}
         cta={{ to: "/services", text: "Find out more" }}
       />
       <Body>
@@ -48,10 +49,10 @@ export default ({
         text="I pride myself on delivering quality gardening outcomes for you and all my clients."
         image={<img src={QuoteImg} alt="Ali's trustworthy face" />}
       />
-      <Body>
+      {/* <Body>
         <h2 className="mt-6">Recent work</h2>
         {posts}
-      </Body>
+      </Body> */}
     </Layout>
   )
 }
