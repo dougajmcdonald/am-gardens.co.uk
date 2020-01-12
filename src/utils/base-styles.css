@@ -30,22 +30,11 @@ li {
   @apply font-body text-base mt-6 text-secondary;
 }
 
-.hero {
-  background-image: url("../images/garden-bar2.jpg");
-}
-
-.hero-height {
-  min-height: 200px;
-}
-
 @screen md {
   h1 {
     @apply mt-16 mb-8;
   }
   p {
     @apply w-2/3;
-  }
-  .hero-height {
-    min-height: 450px;
   }
 }
