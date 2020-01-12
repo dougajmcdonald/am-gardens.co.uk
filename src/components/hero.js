@@ -5,16 +5,19 @@ import Button from "../components/button"
 const Hero = ({ text, image, cta }) => (
   <section
     className="bg-cover bg-center"
-    style={{ minHeight: `300px`, backgroundImage: `url("./garden-bar.png")` }}
+    style={{
+      minHeight: `200px`,
+      backgroundImage: `url("./garden-bar.png")`
+    }}
   >
     <div
-      className="w-4/5 md:w-2/3 mx-auto flex flex-wrap md:justify-between pt-6 md:pt-16"
-      style={{}}
+      className="w-full mx-auto flex flex-wrap md:justify-between pt-6 md:pt-16 h-auto"
+      style={{ backgroundColor: `rgba(0, 0, 0, 0.375)` }}
     >
-      <div className="w-full md:w-1/2">
+      <div className="w-4/5 md:w-2/3 mx-auto">
         <h2
-          className="text-white font-bold text-l md:text-2xl md:mr-10 font-body mt-0 p-2"
-          style={{ backgroundColor: `rgba(0, 0, 0, 0.3)` }}
+          className="text-white font-bold text-l md:text-2xl md:mr-10 font-body mt-0 p-2 md:w-1/2"
+          style={{}}
         >
           {text}
         </h2>
