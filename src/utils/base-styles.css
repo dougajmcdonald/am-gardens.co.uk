@@ -7,7 +7,7 @@ a:hover {
 }
 
 p {
-  @apply font-body text-secondary text-base mt-2 mb-4 w-2/3;
+  @apply font-body text-secondary text-base mt-2 mb-4 w-full;
 }
 
 h1 {
@@ -28,4 +28,10 @@ ul {
 
 li {
   @apply font-body text-base mt-6 text-secondary border-l-2 border-tertiary pl-4;
+}
+
+@screen md {
+  p {
+    @apply w-2/3;
+  }
 }
