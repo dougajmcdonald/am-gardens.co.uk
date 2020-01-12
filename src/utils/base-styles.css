@@ -1,5 +1,5 @@
 a {
-  @apply text-tertiary font-body;
+  @apply font-body;
 }
 
 a:hover {
@@ -27,7 +27,7 @@ ul {
 }
 
 li {
-  @apply font-body text-base mt-6 text-secondary border-l-2 border-tertiary pl-4;
+  @apply font-body text-base mt-6 text-secondary;
 }
 
 @screen md {

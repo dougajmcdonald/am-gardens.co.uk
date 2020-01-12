@@ -8,7 +8,7 @@ import Body from "../components/body"
 import SEO from "../components/seo"
 import BlogListing from "../components/blog-listing"
 import HeroImg from "../svg/undraw_environment.svg"
-import QuoteImg from "../images/ali_face.png"
+import QuoteImg from "../images/ali.png"
 import GardenImg from "../components/garden-image"
 
 export default ({
@@ -16,12 +16,12 @@ export default ({
     allMarkdownRemark: { edges }
   }
 }) => {
-  const posts = edges
-    .filter(
-      edge =>
-        !!edge.node.frontmatter.date && edge.node.frontmatter.draft === false
-    )
-    .map(edge => <BlogListing key={edge.node.id} post={edge.node} />)
+  // const posts = edges
+  //   .filter(
+  //     edge =>
+  //       !!edge.node.frontmatter.date && edge.node.frontmatter.draft === false
+  //   )
+  //   .map(edge => <BlogListing key={edge.node.id} post={edge.node} />)
   return (
     <Layout>
       <SEO title="Home" />
@@ -47,7 +47,13 @@ export default ({
       </Body>
       <QuoteBanner
         text="I pride myself on delivering quality gardening outcomes for you and all my clients."
-        image={<img src={QuoteImg} alt="Ali's trustworthy face" />}
+        image={
+          <img
+            src={QuoteImg}
+            className="md:w-1/2"
+            alt="Ali's trustworthy face"
+          />
+        }
       />
       {/* <Body>
         <h2 className="mt-6">Recent work</h2>
