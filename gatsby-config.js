@@ -38,8 +38,8 @@ module.exports = {
         name: `AM Gardens`,
         short_name: `AM Gardens`,
         start_url: `/`,
-        background_color: `#459A6E`,
-        theme_color: `#459A6E`,
+        background_color: `#ffffff`,
+        theme_color: `#ffffff`,
         display: `minimal-ui`,
         icon: `src/images/logo.png` // This path is relative to the root of the site.
       }
