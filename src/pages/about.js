@@ -8,33 +8,32 @@ import SEO from "../components/seo"
 const AboutPage = () => (
   <Layout>
     <SEO title="About" />
-    <Hero text="Over ten years practical experience working in gardens across the south of England, from Bristol, Bath and Wiltshire." />
+    <Hero text="Over ten years experience creating gardens across southern Britain." />
     <Body>
-      <h1>About</h1>
+      <h1>About me</h1>
       <p>
-        I have over ten years practical experience working in gardens across the
-        south of England, from Bristol, Bath and Wiltshire and as far afield as
-        London and Surrey.
+        I have over ten years of practical experience working in gardens across
+        the south of the England, Bristol and Bath. Wales and Wiltshire. London
+        and Surrey.
       </p>
       <p>
-        With vast experience operating in private residential gardens (including
-        those of Premier League footballers), I have worked to the highest
-        standards for clients who expect the best.
+        From expansive, modern gardens of professional footballers to small
+        inner city sanctuaries and large scale commercial sites, I have worked
+        to the highest standards for clients who expect the best.
+      </p>
+      <p>And now I want to work with you!</p>
+      <p>
+        Based in Bristol, I offer a friendly positive and personal service with
+        a commitment to satisfaction whatever the scale and nature of the work.
       </p>
       <p>
-        I confidently work on large scale gardens and am happy to create work
-        plans that not only fit the seasons, but also the your requirements.
+        I love to get out in nature as much as possible and cultivate bonsai in
+        my spare time.
       </p>
-      <p>
-        I'm also experienced running large scale commercial sites around
-        deadlines and developments, whilst liaising with management structuring.
-        An ability to prioritise when time is tight whilst still working to the
-        highest standard is second nature to the way I work.
+      <p className="font-bold">
+        Please get in touch to find out how I can bring my passion for
+        horticultural to your outdoor spaces.
       </p>
-      <p>I hold the following professional certifications</p>
-      <ul>
-        <li>PA1 and PA6 certification</li>
-      </ul>
     </Body>
   </Layout>
 )

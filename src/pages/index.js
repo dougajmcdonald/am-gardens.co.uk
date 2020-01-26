@@ -1,12 +1,11 @@
 import React from "react"
-import { graphql } from "gatsby"
+import { graphql, Link } from "gatsby"
 
 import Layout from "../components/layout"
 import Hero from "../components/hero"
 import QuoteBanner from "../components/quote-banner"
 import Body from "../components/body"
 import SEO from "../components/seo"
-import BlogListing from "../components/blog-listing"
 import QuoteImg from "../images/ali.png"
 
 export default ({
@@ -23,27 +22,29 @@ export default ({
   return (
     <Layout>
       <SEO title="Home" />
-      <Hero
-        text="Professional, reliable gardening services "
-        cta={{ to: "/services", text: "Find out more" }}
-      />
+      <Hero text="Tailored, professional and affordable garden care and maintenance." />
       <Body>
         <h1>Welcome</h1>
         <p>
-          With a meticulous eye for detail, my appreciation for the aesthetic
-          has developed into an established understanding of the spacial
-          structuring of the garden and it's varying components.
+          Your garden should be a space tailored and maintained for your
+          enjoyment. But finding the time, skills and patience to nurture it can
+          create more stress than happiness! A.M Gardens was established to
+          remove the hassle from creating and managing a garden.
         </p>
         <p>
-          This allows clients to be confident in the precision of my work and
-          thorough approach to a considered outcome for every situation. With
-          personal interests ranging from ecological consideration to advanced
-          bonsai techniques, I really can offer something for everyone and look
-          forward to hearing from you
+          I’m Alistair, and whether you need occasional weeding, lawn care and
+          expert pruning. Want to convert a wilderness into a utopia or require
+          help with plant cultivation and wildlife habitat creation. Small or
+          large scale. I can tailor an affordable service for you.
+        </p>
+        <p className="font-bold">
+          My goal is to ensure you spend your time enjoying your outdoor space,
+          instead of working in it.
         </p>
       </Body>
       <QuoteBanner
-        text="I pride myself on delivering quality gardening outcomes for you and all my clients."
+        text="Ecological consideration and habitat construction is something which I pride myself upon
+        and would always encourage others to consider in their own space"
         image={
           <img
             src={QuoteImg}
@@ -53,6 +54,13 @@ export default ({
           />
         }
       />
+      <Body>
+        <p>
+          Find out more about me on the <Link to="/about">About</Link> page and
+          visit <Link to="/services">Services</Link> for more detail on what I
+          can offer
+        </p>
+      </Body>
       {/* <Body>
         <h2 className="mt-6">Recent work</h2>
         {posts}

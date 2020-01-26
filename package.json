@@ -28,6 +28,7 @@
     "react-dom": "^16.12.0",
     "react-helmet": "^5.2.1",
     "tailwindcss": "^1.1.3",
+    "typeface-inter": "^3.11.2",
     "typeface-open-sans": "0.0.75"
   },
   "devDependencies": {

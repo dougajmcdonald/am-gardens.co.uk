@@ -18,13 +18,12 @@ const IndexPage = () => (
     <Body>
       <h1>Contact Us</h1>
       <p>
-        We would love to hear from you, whether it's a question about your
-        needs, or a request for a quote.
+        I provide free consultation, so if you want a professional opinion or
+        are not sure exactly what you need then please get in touch to discuss
+        your requirements on a friendly one to one basis.
       </p>
-      <h3>Contact info</h3>
-
       <div itemscope itemtype="http://schema.org/LocalBusiness">
-        <h1 itemprop="name">AM Gardens</h1>
+        <h2 itemprop="name">AM Gardens</h2>
         <span class="mt-6 text-tertiary block" itemprop="telephone">
           <a href="tel:07423 754535">
             {" "}
@@ -40,11 +39,6 @@ const IndexPage = () => (
           info@am-gardens.co.uk
         </a>
       </div>
-
-      <h3>Address</h3>
-      <p className="mt-4 mb-0">6a Kellaway Avenue,</p>
-      <p className="mt-0 mb-0">Bristol,</p>
-      <p className="mt-0 mb-0">BS6 7XR</p>
     </Body>
   </Layout>
 )

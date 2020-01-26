@@ -10,16 +10,20 @@ p {
   @apply font-body text-secondary text-base mt-2 mb-4 w-full;
 }
 
+p > a {
+  @apply text-tertiary font-semibold;
+}
+
 h1 {
   @apply font-display text-secondary text-2xl mt-10 mb-6;
 }
 
 h2 {
-  @apply font-display text-secondary text-xl mt-16 mb-4;
+  @apply font-display text-secondary text-xl mt-16 mb-4 font-bold;
 }
 
 h3 {
-  @apply text-l text-secondary font-display mt-8;
+  @apply text-l text-secondary font-display mt-8 font-bold;
 }
 
 ul {

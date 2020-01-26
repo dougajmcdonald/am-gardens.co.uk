@@ -30,9 +30,9 @@ const Header = ({ siteTitle }) => {
           <p className="text-white font-bold text-base md:text-l">
             {siteTitle}
           </p>
-          <p className="mt-4 mb-0 text-white">6a Kellaway Avenue,</p>
+          {/* <p className="mt-4 mb-0 text-white">6a Kellaway Avenue,</p>
           <p className="mt-0 mb-0 text-white">Bristol,</p>
-          <p className="mt-0 mb-0 text-white">BS6 7XR</p>
+          <p className="mt-0 mb-0 text-white">BS6 7XR</p> */}
           <p className="text-white mt-8">© {new Date().getFullYear()}</p>
         </div>
         <nav className="flex-1 mr-4">
