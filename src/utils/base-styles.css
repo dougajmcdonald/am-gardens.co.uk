@@ -7,7 +7,7 @@ a:hover {
 }
 
 p {
-  @apply font-body text-secondary text-base mt-2 mb-4 w-full;
+  @apply font-body text-secondary text-base mt-2 mb-6 w-full;
 }
 
 p > a {

@@ -4,6 +4,8 @@ import Layout from "../components/layout"
 import Body from "../components/body"
 import Hero from "../components/hero"
 import SEO from "../components/seo"
+import GardenImage2 from "../components/garden-image-2"
+import AliImage from "../components/ali-image"
 
 const AboutPage = () => (
   <Layout>
@@ -34,6 +36,8 @@ const AboutPage = () => (
         Please get in touch to find out how I can bring my passion for
         horticultural to your outdoor spaces.
       </p>
+      <GardenImage2 />
+      <AliImage />
     </Body>
   </Layout>
 )
