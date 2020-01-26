@@ -34,11 +34,6 @@ const AboutPage = () => (
       <p>I hold the following professional certifications</p>
       <ul>
         <li>PA1 and PA6 certification</li>
-        <li>Spraying shit</li>
-        <li>Cutting shit</li>
-        <li>Not cutting the wrong shit</li>
-        <li>Ethical shit</li>
-        <li>Environmental shit</li>
       </ul>
     </Body>
   </Layout>
