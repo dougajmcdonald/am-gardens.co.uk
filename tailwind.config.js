@@ -1,8 +1,8 @@
 module.exports = {
   theme: {
     fontFamily: {
-      display: ['"Open sans"'],
-      body: ['"Open sans"']
+      display: ['"Inter"'],
+      body: ['"Inter"']
     },
     fontSize: {
       xs: "0.563rem" /*9px*/,

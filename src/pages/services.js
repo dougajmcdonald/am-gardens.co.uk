@@ -9,10 +9,7 @@ import ServiceItem from "../components/service-item"
 const ServicesPage = () => (
   <Layout>
     <SEO title="About" />
-    <Hero
-      text="Professional results from a friendly personalised service."
-      cta={{ to: "/contact-us", text: "Get a quote" }}
-    />
+    <Hero text="Professional results from a friendly personalised service." />
     <Body>
       <h1>Let me do the hard work</h1>
       <p>

@@ -11,10 +11,7 @@ import EmailIcon from "../svg/md-mail.svg"
 const IndexPage = () => (
   <Layout>
     <SEO title="Contact Us" />
-    <Hero
-      text="We're on hand to answers your queries. Get in touch for a free quote."
-      cta={{ to: "/contact-us", text: "Get a quote" }}
-    />
+    <Hero text="We're on hand to answers your queries. Get in touch for a free quote." />
     <Body>
       <h1>Contact Us</h1>
       <p>

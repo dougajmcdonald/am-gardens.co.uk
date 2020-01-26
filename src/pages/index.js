@@ -50,7 +50,7 @@ export default ({
             src={QuoteImg}
             className="md:w-1/2"
             alt="Ali's trustworthy face"
-            style={{ width: `300px` }}
+            style={{ width: `217px` }}
           />
         }
       />
