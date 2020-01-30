@@ -15,11 +15,11 @@ p > a {
 }
 
 h1 {
-  @apply font-display text-secondary text-2xl mt-10 mb-6;
+  @apply font-display text-secondary text-xl mt-10 mb-6;
 }
 
 h2 {
-  @apply font-display text-secondary text-xl mt-16 mb-4 font-bold;
+  @apply font-display text-secondary text-xl mt-16 mb-4;
 }
 
 h3 {

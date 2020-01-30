@@ -7,6 +7,7 @@ import QuoteBanner from "../components/quote-banner"
 import Body from "../components/body"
 import SEO from "../components/seo"
 import QuoteImg from "../images/ali.png"
+import ServiceList from "../components/service-list"
 
 export default ({
   data: {
@@ -60,6 +61,7 @@ export default ({
           visit <Link to="/services">Services</Link> for more detail on what I
           can offer
         </p>
+        <ServiceList />
       </Body>
       {/* <Body>
         <h2 className="mt-6">Recent work</h2>
