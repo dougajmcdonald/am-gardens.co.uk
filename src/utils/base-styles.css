@@ -1,4 +1,5 @@
-.hero-text {
+.hero-text,
+.cta-text {
   margin-left: 10%;
 }
 
@@ -41,6 +42,9 @@ li {
 @screen md {
   .hero-text {
     margin-left: 33.3%;
+  }
+  .cta-text {
+    margin-left: 16.67%;
   }
   h1 {
     @apply mt-16 mb-8;

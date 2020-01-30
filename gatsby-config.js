@@ -2,7 +2,10 @@ module.exports = {
   siteMetadata: {
     title: `AM Gardens`,
     author: `@dougajmcdonald`,
-    description: `AM Gardens - Professional, reliable garden services in and around Bristol.`,
+    description: `AM Gardens - Professional, reliable garden services in and around Bristol. Your garden should be a space tailored and maintained for your
+    enjoyment. But finding the time, skills and patience to nurture it can
+    create more stress than happiness! A.M Gardens was established to
+    remove the hassle from creating and managing a garden.`,
     url: `https://www.am-gardens.co.uk`, // No trailing slash allowed!
     image: `/logo.png`, // Path to your image you placed in the 'static' folder
     twitterUsername: `@dougajmcdonald`
