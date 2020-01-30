@@ -35,10 +35,17 @@ li {
 }
 
 @screen md {
+  .hero-text {
+    margin-left: 33.3%;
+  }
   h1 {
     @apply mt-16 mb-8;
   }
   p {
     @apply w-2/3;
   }
+}
+
+.hero-text {
+  margin-left: 10%;
 }
