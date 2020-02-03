@@ -19,8 +19,8 @@ const Header = ({ siteTitle }) => {
       text: `About`
     },
     {
-      route: `/contact-us`,
-      text: `Contact Us`
+      route: `/contact`,
+      text: `Contact`
     }
   ]
   return (
@@ -28,9 +28,6 @@ const Header = ({ siteTitle }) => {
       <div className="w-4/5 md:w-2/3 mx-auto text-white flex flex-column justify-start flex-wrap py-16">
         <div className="flex-1 mr-4">
           <p className="text-white font-bold text-base">{siteTitle}</p>
-          {/* <p className="mt-4 mb-0 text-white">6a Kellaway Avenue,</p>
-          <p className="mt-0 mb-0 text-white">Bristol,</p>
-          <p className="mt-0 mb-0 text-white">BS6 7XR</p> */}
           <p className="text-white">© {new Date().getFullYear()}</p>
         </div>
         <nav className="flex-1 mr-4">

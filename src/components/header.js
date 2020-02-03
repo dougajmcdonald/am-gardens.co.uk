@@ -20,13 +20,13 @@ const Header = () => {
       text: `About`
     },
     {
-      route: `/contact-us`,
-      text: `Contact Us`
+      route: `/contact`,
+      text: `Contact`
     }
   ]
   return (
     <header className="font-display flex" style={{ minHeight: `70px` }}>
-      <div className="w-4/5 md:w-2/3 mx-auto py-4 flex flex-wrap items-center justify-between">
+      <div className="w-4/5 md:w-2/3 mx-auto py-4 flex items-center justify-between">
         <Link to="/" title="home">
           <Logo />
         </Link>
