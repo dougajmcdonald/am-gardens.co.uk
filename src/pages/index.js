@@ -8,6 +8,7 @@ import Body from "../components/body"
 import SEO from "../components/seo"
 import QuoteImg from "../images/ali.png"
 import ServiceList from "../components/service-list"
+import CTABanner from "../components/cta-banner"
 
 export default ({
   data: {
@@ -24,6 +25,13 @@ export default ({
     <Layout>
       <SEO title="Home" />
       <Hero text="Tailored, professional and affordable garden care and maintenance." />
+      <CTABanner>
+        Call{" "}
+        <a href="tel:07423 754535" className="font-bold">
+          07423 754535
+        </a>{" "}
+        to arrange a consultation
+      </CTABanner>
       <Body>
         <h1>Welcome</h1>
         <p>

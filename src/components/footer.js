@@ -27,13 +27,11 @@ const Header = ({ siteTitle }) => {
     <footer className="font-body flex mt-24 bg-footer">
       <div className="w-4/5 md:w-2/3 mx-auto text-white flex flex-column justify-start flex-wrap py-16">
         <div className="flex-1 mr-4">
-          <p className="text-white font-bold text-base md:text-l">
-            {siteTitle}
-          </p>
+          <p className="text-white font-bold text-base">{siteTitle}</p>
           {/* <p className="mt-4 mb-0 text-white">6a Kellaway Avenue,</p>
           <p className="mt-0 mb-0 text-white">Bristol,</p>
           <p className="mt-0 mb-0 text-white">BS6 7XR</p> */}
-          <p className="text-white mt-8">© {new Date().getFullYear()}</p>
+          <p className="text-white">© {new Date().getFullYear()}</p>
         </div>
         <nav className="flex-1 mr-4">
           <p className="text-white font-bold">Site map</p>
@@ -51,14 +49,14 @@ const Header = ({ siteTitle }) => {
           <p className="text-white font-bold">Follow us</p>
           <a
             href="https://www.facebook.com/amgardensbristol"
-            className="inline-block md:w-full my-2"
+            className="inline-block md:w-full"
           >
             <FacebookLogo className="fill-current w-6 h-6 inline-block mr-4" />
             <span className="hidden md:inline-block">AM Gardens</span>
           </a>
           <a
             href="https://www.instagram.com/am-gardens"
-            className="inline-block md:w-full my-2"
+            className="inline-block md:w-full"
           >
             <InstagramLogo className="fill-current w-6 h-6 inline-block mr-4" />
             <span className="hidden md:inline-block">@AM Gardens</span>

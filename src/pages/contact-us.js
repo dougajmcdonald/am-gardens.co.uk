@@ -3,6 +3,7 @@ import React from "react"
 import Layout from "../components/layout"
 import Hero from "../components/hero"
 import Body from "../components/body"
+import CTABanner from "../components/cta-banner"
 
 import SEO from "../components/seo"
 import PhoneIcon from "../svg/md-call.svg"
@@ -11,7 +12,14 @@ import EmailIcon from "../svg/md-mail.svg"
 const IndexPage = () => (
   <Layout>
     <SEO title="Contact Us" />
-    <Hero text="We're on hand to answers your queries. Get in touch for a free quote." />
+    <Hero text="I'm on hand to answers your queries. Get in touch for a consultation." />
+    <CTABanner>
+      Call{" "}
+      <a href="tel:07423 754535" className="font-bold">
+        07423 754535
+      </a>{" "}
+      to arrange a consultation
+    </CTABanner>
     <Body>
       <h1>Contact Us</h1>
       <p>
