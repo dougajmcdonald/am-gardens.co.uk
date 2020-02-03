@@ -10,7 +10,7 @@ const Hero = ({ text }) => (
         </h2>
       </div>
     </div>
-    <div className="bg-tertiary md:w-1/2 w-full h-full hidden md:block">
+    <div className="bg-tertiary md:w-1/2 w-full hidden md:block self-stretch">
       <Image />
     </div>
   </section>
