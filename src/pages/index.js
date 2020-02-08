@@ -9,6 +9,7 @@ import SEO from "../components/seo"
 import QuoteImg from "../images/ali.png"
 import ServiceList from "../components/service-list"
 import CTABanner from "../components/cta-banner"
+import AliImage from "../components/ali-image"
 
 export default ({
   data: {
@@ -41,10 +42,10 @@ export default ({
           remove the hassle from creating and managing a garden.
         </p>
         <p>
-          I’m Alistair, and whether you need occasional weeding, lawn care and
-          expert pruning. Want to convert a wilderness into a utopia or require
-          help with plant cultivation and wildlife habitat creation. Small or
-          large scale. I can tailor an affordable service for you.
+          I’m Alistair, and whether you need occasional weeding, lawn care, and
+          expert pruning, to convert a wilderness into a utopia or require help
+          with plant cultivation and wildlife habitat creation. Small or large
+          scale. I can tailor an affordable service for you.
         </p>
         <p className="font-bold">
           My goal is to ensure you spend your time enjoying your outdoor space,
@@ -54,14 +55,7 @@ export default ({
       <QuoteBanner
         text="Ecological consideration and habitat construction is something which I pride myself upon
         and would always encourage others to consider in their own space"
-        image={
-          <img
-            src={QuoteImg}
-            className="md:w-1/2"
-            alt="Ali's trustworthy face"
-            style={{ width: `217px` }}
-          />
-        }
+        image={<AliImage />}
       />
       <Body>
         <p>

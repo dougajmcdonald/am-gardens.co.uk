@@ -21,7 +21,7 @@ const ServicesPage = () => (
     <Body>
       <h1>Let me do the hard work</h1>
       <p>
-        At the end of a long day the last thing on most peoples mind’s is
+        At the end of a long day, the last thing on most people's minds is
         pulling on their boots to spend a few hours toiling in the garden for
         mixed results. You should be enjoying your free time not working in it!
       </p>
@@ -29,8 +29,8 @@ const ServicesPage = () => (
         I offer a full range of personalised services designed to produce
         professional results. Whether you have a grand vision you need help
         implementing, a one-off problem to solve, or want regular weekly,
-        fortnightly or monthly visits. I can flexibly tailor the perfect
-        solution.
+        fortnightly or monthly visits. I can tailor the perfect solution for
+        you.
       </p>
       <p>
         I provide free consultation, so if you want a professional opinion or
@@ -106,22 +106,22 @@ const ServicesPage = () => (
       <ServiceItem>
         <h3>Soft landscaping</h3>
         <p>
-          As peoples lives change whether it be due to new additions to the
-          family or restricted mobility, or anything else for that matter, so
-          can the requirements of their garden. Whether you need a new path
-          added for easier access or more productive use of your space by adding
-          raised beds to grow veg, or even a new pond to encourage wildlife, we
-          can discuss your needs and create a solution to best fit.
+          As people's lives change whether it be due to new additions to the
+          family or restricted mobility, so can the requirements of their
+          garden. Whether you need a new path added for easier access, more
+          productive use of your space by adding raised beds to grow veg, or
+          even a new pond to encourage wildlife, we can discuss your needs and
+          create a solution to best fit.
         </p>
       </ServiceItem>
       <ServiceItem>
         <h3>Cultivation</h3>
         <p>
-          Often buying new stock from garden centres can be an expensive game
-          and does not offer the variety you may hope for. Where people want
-          bespoke solutions I am happy growing from seed, from bedding plants to
-          trees, as long as you are happy to wait a little longer, this can be
-          an effective way to keep costs down and get the plants you desire.
+          Often buying new stock from garden centres can be expensive and does
+          not offer the variety you may hope for. People want bespoke solutions
+          and I am happy growing from seed, from bedding plants to trees, as
+          long as you are happy to wait a little longer, this can be an
+          effective way to keep costs down and get the plants you desire.
         </p>
       </ServiceItem>
       <ServiceItem>
