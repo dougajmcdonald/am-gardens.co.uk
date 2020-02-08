@@ -44,8 +44,10 @@ const AboutPage = () => (
         Please get in touch to find out how I can bring my passion for
         horticultural to your outdoor spaces.
       </p>
-      <GardenImage />
-      <GardenImage2 />
+      <div className="w-2/3 flex flex-wrap justify-between">
+        <GardenImage />
+        <GardenImage2 />
+      </div>
     </Body>
   </Layout>
 )
