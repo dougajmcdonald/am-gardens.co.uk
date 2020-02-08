@@ -9,7 +9,7 @@ import SEO from "../components/seo"
 // import QuoteImg from "../images/ali.png"
 import ServiceList from "../components/service-list"
 import CTABanner from "../components/cta-banner"
-import AliImage from "../components/ali-image"
+import QuoteImage from "../components/ali-image"
 import HeroImage from "../components/index-hero-image"
 
 export default ({
@@ -59,7 +59,7 @@ export default ({
       <QuoteBanner
         text="Ecological consideration and habitat construction is something which I pride myself upon
         and would always encourage others to consider in their own space"
-        image={<AliImage />}
+        image={<QuoteImage />}
       />
       <Body>
         <p>
