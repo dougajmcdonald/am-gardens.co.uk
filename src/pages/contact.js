@@ -12,7 +12,7 @@ import HeroImage from "../components/index-hero-image3"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Contact Us" />
+    <SEO title="Contact" />
     <Hero
       text="I'm on hand to answers your queries. Get in touch for a consultation."
       image={<HeroImage />}

@@ -5,7 +5,7 @@ import Body from "../components/body"
 import Hero from "../components/hero"
 import SEO from "../components/seo"
 import GardenImage2 from "../components/garden-image-2"
-import AliImage from "../components/ali-image"
+import GardenImage from "../components/garden-image"
 import CTABanner from "../components/cta-banner"
 import HeroImage from "../components/index-hero-image2"
 
@@ -44,8 +44,8 @@ const AboutPage = () => (
         Please get in touch to find out how I can bring my passion for
         horticultural to your outdoor spaces.
       </p>
+      <GardenImage />
       <GardenImage2 />
-      <AliImage />
     </Body>
   </Layout>
 )

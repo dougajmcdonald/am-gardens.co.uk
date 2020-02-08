@@ -43,7 +43,7 @@ const Header = ({ siteTitle }) => {
           </ul>
         </nav>
         <div className="flex-1 mr-4 text-white">
-          <p className="text-white font-bold">Follow us</p>
+          <p className="text-white font-bold">Follow</p>
           <a
             href="https://www.facebook.com/amgardensbristol"
             className="inline-block md:w-full"
