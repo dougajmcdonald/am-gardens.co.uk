@@ -6,10 +6,11 @@ import Hero from "../components/hero"
 import QuoteBanner from "../components/quote-banner"
 import Body from "../components/body"
 import SEO from "../components/seo"
-import QuoteImg from "../images/ali.png"
+// import QuoteImg from "../images/ali.png"
 import ServiceList from "../components/service-list"
 import CTABanner from "../components/cta-banner"
 import AliImage from "../components/ali-image"
+import HeroImage from "../components/index-hero-image"
 
 export default ({
   data: {
@@ -25,7 +26,10 @@ export default ({
   return (
     <Layout>
       <SEO title="Home" />
-      <Hero text="Tailored, professional and affordable garden care and maintenance." />
+      <Hero
+        text="Tailored, professional and affordable garden care and maintenance."
+        image={<HeroImage />}
+      />
       <CTABanner>
         Call{" "}
         <a href="tel:07423 754535" className="font-bold">

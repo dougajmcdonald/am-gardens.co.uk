@@ -34,7 +34,7 @@ const Header = ({ siteTitle }) => {
           <p className="text-white font-bold">Site map</p>
           <ul className="m-0">
             {pages.map(page => (
-              <li className="text-white m-0">
+              <li key={page.route} className="text-white m-0">
                 <Link to={page.route} className="pt-s">
                   {page.text}
                 </Link>

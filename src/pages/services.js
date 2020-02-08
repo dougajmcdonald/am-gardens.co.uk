@@ -6,11 +6,15 @@ import Hero from "../components/hero"
 import SEO from "../components/seo"
 import ServiceItem from "../components/service-item"
 import CTABanner from "../components/cta-banner"
+import HeroImage from "../components/index-hero-image4"
 
 const ServicesPage = () => (
   <Layout>
     <SEO title="About" />
-    <Hero text="Professional results from a friendly personalised service." />
+    <Hero
+      text="Professional results from a friendly personalised service."
+      image={<HeroImage />}
+    />
     <CTABanner>
       Call{" "}
       <a href="tel:07423 754535" className="font-bold">

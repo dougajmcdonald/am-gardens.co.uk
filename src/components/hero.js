@@ -1,7 +1,6 @@
 import React from "react"
-import Image from "../components/image"
 
-const Hero = ({ text }) => (
+const Hero = ({ text, image }) => (
   <section className="bg-footer md:flex justify-center">
     <div className="md:w-1/2 w-4/5 flex flex-wrap md:justify-between py-6 md:py-8 h-auto">
       <div className="w-full flex items-center hero-text">
@@ -11,7 +10,7 @@ const Hero = ({ text }) => (
       </div>
     </div>
     <div className="bg-tertiary md:w-1/2 w-full hidden md:block self-stretch">
-      <Image />
+      {image}
     </div>
   </section>
 )

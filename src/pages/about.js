@@ -7,11 +7,15 @@ import SEO from "../components/seo"
 import GardenImage2 from "../components/garden-image-2"
 import AliImage from "../components/ali-image"
 import CTABanner from "../components/cta-banner"
+import HeroImage from "../components/index-hero-image2"
 
 const AboutPage = () => (
   <Layout>
     <SEO title="About" />
-    <Hero text="Over ten years of experience creating gardens across Southern Britain." />
+    <Hero
+      text="Over ten years of experience creating gardens across Southern Britain."
+      image={<HeroImage />}
+    />
     <CTABanner>
       Call{" "}
       <a href="tel:07423 754535" className="font-bold">

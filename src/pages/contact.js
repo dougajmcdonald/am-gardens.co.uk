@@ -8,11 +8,15 @@ import CTABanner from "../components/cta-banner"
 import SEO from "../components/seo"
 import PhoneIcon from "../svg/md-call.svg"
 import EmailIcon from "../svg/md-mail.svg"
+import HeroImage from "../components/index-hero-image3"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Contact Us" />
-    <Hero text="I'm on hand to answers your queries. Get in touch for a consultation." />
+    <Hero
+      text="I'm on hand to answers your queries. Get in touch for a consultation."
+      image={<HeroImage />}
+    />
     <CTABanner>
       Call{" "}
       <a href="tel:07423 754535" className="font-bold">
