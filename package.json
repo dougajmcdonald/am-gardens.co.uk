@@ -21,7 +21,6 @@
     "gatsby-source-filesystem": "^2.1.43",
     "gatsby-transformer-remark": "^2.6.30",
     "gatsby-transformer-sharp": "^2.3.9",
-    "google-map-react": "^1.1.5",
     "netlify-cms-app": "^2.9.7",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
