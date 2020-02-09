@@ -15,4 +15,4 @@ import "./src/utils/tailwind-directives.css"
 import "./src/utils/base-styles.css"
 
 // custom typefaces
-import "typeface-open-sans"
+import "typeface-inter"

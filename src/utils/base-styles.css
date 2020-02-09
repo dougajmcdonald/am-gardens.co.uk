@@ -1,3 +1,8 @@
+.hero-text,
+.cta-text {
+  margin-left: 10%;
+}
+
 a {
   @apply font-body;
 }
@@ -7,11 +12,15 @@ a:hover {
 }
 
 p {
-  @apply font-body text-secondary text-base mt-2 mb-4 w-full;
+  @apply font-body text-secondary text-base mt-2 mb-6 w-full;
+}
+
+p > a {
+  @apply text-tertiary font-semibold;
 }
 
 h1 {
-  @apply font-display text-secondary text-2xl mt-10 mb-6;
+  @apply font-display text-secondary text-xl mt-10 mb-6;
 }
 
 h2 {
@@ -19,7 +28,7 @@ h2 {
 }
 
 h3 {
-  @apply text-l text-secondary font-display mt-8;
+  @apply text-l text-secondary font-display mt-8 font-bold;
 }
 
 ul {
@@ -31,6 +40,12 @@ li {
 }
 
 @screen md {
+  .hero-text {
+    margin-left: 33.3%;
+  }
+  .cta-text {
+    margin-left: 16.67%;
+  }
   h1 {
     @apply mt-16 mb-8;
   }
