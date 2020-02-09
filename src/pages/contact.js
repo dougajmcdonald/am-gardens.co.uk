@@ -14,7 +14,7 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Contact" />
     <Hero
-      text="I'm on hand to answers your queries. Get in touch for a consultation."
+      text="I'm on hand to answer your queries. Get in touch for a consultation."
       image={<HeroImage />}
     />
     <CTABanner>
