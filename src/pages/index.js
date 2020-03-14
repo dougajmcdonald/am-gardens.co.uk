@@ -46,10 +46,10 @@ export default ({
           remove the hassle from creating and managing a garden.
         </p>
         <p>
-          I’m Alistair, and whether you need occasional weeding, lawn care, and
-          expert pruning, to convert a wilderness into a utopia or require help
-          with plant cultivation and wildlife habitat creation. Small or large
-          scale. I can tailor an affordable service for you.
+          I’m Alistair, and whether you need occasional weeding, lawn care,
+          expert pruning, want to convert a wilderness into a utopia or require
+          help with plant cultivation and wildlife habitat creation. Small or
+          large scale. I can tailor an affordable service for you.
         </p>
         <p className="font-bold">
           My goal is to ensure you spend your time enjoying your outdoor space,
@@ -57,8 +57,8 @@ export default ({
         </p>
       </Body>
       <QuoteBanner
-        text="Ecological consideration and habitat construction is something which I pride myself upon
-        and would always encourage others to consider in their own space"
+        text="Ecological considerations and habitat construction are things which I pride myself on
+        and I would always encourage others to consider in their own space"
         image={<QuoteImage />}
       />
       <Body>

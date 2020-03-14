@@ -27,8 +27,7 @@ const AboutPage = () => (
       <h1>About me</h1>
       <p>
         I have over ten years of practical experience working in gardens across
-        the south of England, from Bristol, Bath, and Wiltshire, to London and
-        Surrey.
+        the south of England, in Bristol, Bath, Wiltshire, London and Surrey.
       </p>
       <p>
         From expansive, modern gardens of professional footballers to small
@@ -37,8 +36,9 @@ const AboutPage = () => (
       </p>
       <p>And now I want to work with you!</p>
       <p>
-        Based in Bristol, I offer a friendly, positive and personal service with
-        a commitment to satisfaction whatever the scale and nature of the work.
+        I work across Somerset, Gloucestershire, Wiltshire and South Wales. I
+        offer a friendly, positive and personal service with a commitment to
+        satisfaction whatever the scale and nature of the work.
       </p>
       <p className="font-bold">
         Please get in touch to find out how I can bring my passion for
