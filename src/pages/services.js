@@ -12,7 +12,7 @@ const ServicesPage = () => (
   <Layout>
     <SEO title="About" />
     <Hero
-      text="Professional results from a friendly personalised service."
+      text="Professional results from a friendly, personalised service."
       image={<HeroImage />}
     />
     <CTABanner>
@@ -37,9 +37,9 @@ const ServicesPage = () => (
         you.
       </p>
       <p>
-        I provide free consultation, so if you want a professional opinion or
-        are not sure exactly what you need then please get in touch to discuss
-        your requirements on a friendly one to one basis.
+        I provide a free initial consultation, so if you want a professional
+        opinion or are not sure exactly what you need then please get in touch
+        to discuss your requirements on a friendly one to one basis.
       </p>
       <h2>Garden maintenance</h2>
       <ServiceItem>
@@ -57,10 +57,10 @@ const ServicesPage = () => (
         <p>
           A healthy lawn is about more than just regular cutting. Lawns must be
           fertilised to encourage growth. It is also important to scarify to
-          remove moss and thatch from the base of the stems, as well as aerating
-          the soil at the same time. After scarifying, it may also be necessary
-          to top-dress the lawn to aid the repair of severely affected areas.
-          Edging a lawn is also imperative to keep it looking neat and defining
+          remove moss and thatch from the base of the stems, aerating the soil
+          at the same time. After scarifying, it may also be necessary to
+          top-dress the lawn to aid the repair of severely affected areas.
+          Edging a lawn is also imperative to keep it looking neat and to define
           its perimeter.
         </p>
       </ServiceItem>
@@ -78,10 +78,10 @@ const ServicesPage = () => (
         <h3>Pruning</h3>
         <p>
           This is an aspect I take great pride in and a technique that I have
-          directly transferred from work on my collection of bonsai trees.
+          directly transferred to work on my collection of bonsai trees.
           Accurate pruning and at the correct time of year helps the plant
           maintain healthy growth and structure, as well as often encouraging
-          more blooms, and helping to irradicate diseased limbs.
+          more blooms, and helping to eradicate diseased stems.
         </p>
       </ServiceItem>
       <ServiceItem>
@@ -102,7 +102,7 @@ const ServicesPage = () => (
           Everybody deserves to have the garden of their dreams, but
           unfortunately few houses come with these pre-made. If you have grand
           plans or just want to repurpose a certain feature in your garden, we
-          can work something to get the best from your garden for you. I can
+          can design something to get the best from your garden for you. I can
           also create structured plans to get the best from your existing garden
           as well.
         </p>
@@ -110,7 +110,7 @@ const ServicesPage = () => (
       <ServiceItem>
         <h3>Soft landscaping</h3>
         <p>
-          As people's lives change whether it be due to new additions to the
+          As people's lives change whether it be due to a new addition to the
           family or restricted mobility, so can the requirements of their
           garden. Whether you need a new path added for easier access, more
           productive use of your space by adding raised beds to grow veg, or
@@ -121,35 +121,35 @@ const ServicesPage = () => (
       <ServiceItem>
         <h3>Cultivation</h3>
         <p>
-          Often buying new stock from garden centres can be expensive and does
-          not offer the variety you may hope for. People want bespoke solutions
-          and I am happy growing from seed, from bedding plants to trees, as
-          long as you are happy to wait a little longer, this can be an
-          effective way to keep costs down and get the plants you desire.
+          Often buying new stock from garden centres does not offer the variety
+          you may hope for. People want bespoke solutions and I am happy
+          propagating plants, from bedding plants to trees, as long as you are
+          happy to wait a little longer. This can be an effective way to keep
+          costs down and get the plants you desire.
         </p>
       </ServiceItem>
       <ServiceItem>
         <h3>Habitat Construction and Ecological Consideration</h3>
         <p>
-          With Mother Nature struggling with our input, many of us are now
-          trying to offer a helping hand in our gardens and this is an approach
-          that I thoroughly encourage. Habitat construction such as log piles
-          and specific insect habitats, as well as bird feeders and specific
-          plant choices, can all help to encourage wildlife back into our
-          gardens by creating safe havens and abundant food supplies. most of
-          these environments can be created with existing sources in your garden
-          and I will happily talk through any options with you.
+          With Mother Nature struggling, many of us are now trying to offer a
+          helping hand in our gardens and this is an approach that I thoroughly
+          encourage. Habitat construction such as log piles and insect habitats,
+          as well as bird feeders and specific plant choices, can all help to
+          encourage wildlife back into our gardens by creating safe havens and
+          abundant food supplies. Most of these environments can be created with
+          existing sources in your garden and I will happily talk through the
+          options with you.
         </p>
       </ServiceItem>
       <ServiceItem>
         <h3>Turfing and Seeding</h3>
         <p>
-          When a new patch of grass is required, turfing is the obvious option
-          and can create magnificent results in shorter periods. The only issue
-          is the cost. Where cost is of concern, the next alternative is to seed
-          from scratch or to repair areas. Of course, this takes longer to take,
-          but the results can be just as beautiful. I can offer both and the
-          aftercare to keep them in tip-top shape.
+          When a new area of grass is required, turfing is the obvious option
+          and can create magnificent results in shorter periods. Where cost is
+          of concern, an alternative is to seed from scratch or to repair areas.
+          Of course, this takes longer to create, but the results are just as
+          beautiful. I can offer both turfing and seeding and the aftercare to
+          keep the lawn in tip-top shape.
         </p>
       </ServiceItem>
 
@@ -158,8 +158,8 @@ const ServicesPage = () => (
         <h3>Weeding and Bed Preparation</h3>
         <p>
           Let's face it, weeding is the last thing most people want to do in
-          their gardens, so why not let me take the strain. By keeping your beds
-          weed-free it avoids the spread of unwanted growth and helps create
+          their spare time, so why not let me take away the pain. Keeping your
+          beds weed-free avoids the spread of unwanted growth and helps create
           space for your desired plants to grow into. Keeping the soil turned
           stops the soil from compacting too much and keeps it easy to work. At
           this stage mulching or adding manure to the soil can help to improve

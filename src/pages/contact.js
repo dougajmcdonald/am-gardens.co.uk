@@ -27,9 +27,9 @@ const IndexPage = () => (
     <Body>
       <h1>Contact Us</h1>
       <p>
-        I provide free consultation, so if you want a professional opinion or
-        are not sure exactly what you need then please get in touch to discuss
-        your requirements on a friendly one to one basis.
+        I provide a free initial consultation, so if you want a professional
+        opinion or are not sure exactly what you need then please get in touch
+        to discuss your requirements on a friendly one to one basis.
       </p>
       <div itemscope itemtype="http://schema.org/LocalBusiness">
         <h2 itemprop="name">AM Gardens</h2>
