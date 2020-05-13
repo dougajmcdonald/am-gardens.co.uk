@@ -52,7 +52,7 @@ const Header = ({ siteTitle }) => {
             <span className="hidden md:inline-block">AM Gardens</span>
           </a>
           <a
-            href="https://www.instagram.com/am-gardens"
+            href="https://www.instagram.com/am_gardensbristol"
             className="inline-block md:w-full"
           >
             <InstagramLogo className="fill-current w-6 h-6 inline-block mr-4" />
